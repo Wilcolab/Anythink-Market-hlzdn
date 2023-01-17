@@ -12,3 +12,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 1. [Install Docker](https://docs.docker.com/get-docker/)
 2. [Install Docker Compose](https://docs.docker.com/compose/install/)
 3. Run `docker-compose up`. 
+
+If Docker is working correctly, the backend should be running and able to connect to your local database. Test this by pointing your browser to http://localhost:3000/api/ping
+
+To check the frontend and make sure it’s connected to the backend, you’ll be able to create a new user on http://localhost:3001/register. 
+Create one (choose a cool nickname and everything).
